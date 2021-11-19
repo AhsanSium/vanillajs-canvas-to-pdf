@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="input-div">
+        <input type="file" id='input-file' onchange="getRatio(this.files)" />
+        <h4>select Image</h4>
+        <button onclick="render()">Render</button>
+    </div>
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/jspdf@2.4.0/dist/jspdf.es.min.js"></script> -->
+
+    <script src="https://rawcdn.githack.com/kousik19/foto.js/d604b02c69b6f037875bc4a3050b85d776dc4659/foto.js"></script>
+
+</body>
+</html>

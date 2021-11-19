@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: #9eaf8b;
+}
+
+.img-container{
+    position: absolute;
+    width: 50%;
+    height:50%;
+    top: 41%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-div{
+    margin: auto;
+    margin-top: 5%;
+    font-weight: bold;
+    width: 50%;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    background: coral;
+}
+
+.file-upload-section{
+    
+    
+    cursor: pointer;
+}
+
+/* #foto-file{
+    display: none;
+} */
+.btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: coral;
+    color: cornsilk;
+    border-radius: 5px;
+    cursor: pointer;
+}
